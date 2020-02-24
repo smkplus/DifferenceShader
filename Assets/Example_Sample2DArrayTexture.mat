@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Example_Sample2DArrayTexture
+  m_Shader: {fileID: 4800000, guid: ff51ac7595945b1429f782213159bc63, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Brush:
+        m_Texture: {fileID: 2800000, guid: f271dd7b542519549ac55b88b89f16ac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 8400000, guid: f17f111dfd70c604485a2adce07e6b78, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MyArr:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Textures:
+        m_Texture: {fileID: 18700000, guid: 3a18215054b434c7bf83da3ae44c46dd, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BrushScale: 0.07919455
+    - _Index: -9.9
+    - _Render: 1
+    - _Save: 1
+    - _SliceRange: 6
+    - _UVScale: 1
+    m_Colors:
+    - _ControlColor: {r: 1, g: 1, b: 1, a: 0}
+    - _PaintUV: {r: 100, g: 100, b: 0, a: 0}
